@@ -4,7 +4,7 @@
 @import url(https://fonts.googleapis.com/css?family=Droid+Sans);
 
 #handy-basis {width: 250px; height: 500px; background-image:url('https://abload.de/img/iphone_png3qkfg.png'); margin: 0 auto; position: relative;}
-#handyd-basis {width: 250px; height: 500px; background-image:url('/images/iphone_code2.png'); margin: 0 auto; position: relative;}
+#handyd-basis {width: 250px; height: 500px; background-image:url('https://abload.de/img/iphone_png3qkfg.png'); margin: 0 auto; position: relative;}
 #handy-basis #icons {width: 210px; position: absolute; top: 63px; left: 21px; font-size:9px; color:#fff; z-index:10; font-family: 'Droid Sans';}
 #handyd-basis #icons {width: 210px; position: absolute; top: 63px; left: 21px; font-size:9px; color:#fff; z-index:10; font-family: 'Droid Sans';}
 #handy-basis #bild1 {width: 210px; height: 375px; position: absolute; top: 62px; left: 19px;}
