@@ -1,25 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
-
-#handy-basis {width: 250px; height: 500px; background-image:url('https://abload.de/img/iphone_png3qkfg.png'); margin: 0 auto; position: relative;}
-#handyd-basis {width: 250px; height: 500px; background-image:url('https://abload.de/img/iphone_png3qkfg.png'); margin: 0 auto; position: relative;}
-#handy-basis #icons {width: 210px; position: absolute; top: 63px; left: 21px; font-size:9px; color:#fff; z-index:10; font-family: 'Droid Sans';}
-#handyd-basis #icons {width: 210px; position: absolute; top: 63px; left: 21px; font-size:9px; color:#fff; z-index:10; font-family: 'Droid Sans';}
-#handy-basis #bild1 {width: 210px; height: 375px; position: absolute; top: 62px; left: 19px;}
-#handyd-basis #bild1 {width: 210px; height: 375px; position: absolute; top: 62px; left: 19px;}
-#handy-basis #bild2 {width: 210px; height: 375px; position: absolute; top: 62px; left: 19px; transition: 1s ease-in-out; opacity: 0;}
-#handyd-basis #bild2 {width: 210px; height: 375px; position: absolute; top: 62px; left: 19px; transition: 1s ease-in-out; opacity: 0;}
-#handy-basis:hover #bild2 {opacity: 1;}
-#handyd-basis:hover #bild2 {opacity: 1;}
-#bild1 #time {width: 120px; position: absolute; top: 30px; left: 50px; font-size:50px; color:#fff; font-family: 'Raleway';}
-#bild1 #date {width: 100px; position: absolute; top: 90px; left: 70px; font-size:9px; color:#fff; font-family: 'Droid Sans'; letter-spacing:1px;}
-#bild2 #textfeld {width: 200px; height: 250px; position: absolute; top: 20px; left: 5px; background-color:#f1f1f1; box-sizing: border-box; padding:10px; font-size: 10px; text-align: justify; color:#000; overflow: auto; z-index:5; font-family: 'Open Sans';}
-#bild2 .form {width:20px; height:20px; z-index:2; position: absolute; top:260px; left:100px; }
-#form1 {transform: rotate(45deg); -ms-transform: rotate(45deg); -o-transform: rotate(45deg); -webkit-transform: rotate(45deg); background-color:#f1f1f1; z-index:1; }
-#bild2 .ava {width: 60px; height: 60px; box-sizing: content-box; padding: 5px; border: #f1f1f1 solid 1px; position: absolute; top: 290px; left: 125px; border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%;}
-#bild2 .ava img {border-radius: 100%; -moz-border-radius: 100%; -webkit-border-radius: 100%; width: 60px; height: 60px;}
-#bild2 #strich {width:110px; height: 1px; background-color:#f1f1f1; position: absolute; top: 330px; left: 15px;}
-#bild2 #from {width:110px; position: absolute; top: 310px; left: 15px; text-align: center; font-size:14px; font-family: 'Lobster'; color:#fff;}
-#bild2 #to {width:110px; position: absolute; top: 335px; left: 15px; text-align: center; font-size:8px; font-family: 'Open Sans'; text-transform: uppercase; color:#fff;}
+<style text="text/css">
+#handy { width:305px; height:530px; font-size:11px; font-family: arial; margin:0 auto; padding-top: 90px; background-image:url('https://abload.de/img/iphone_png3qkfg.png')}
+#handy .txtBox { position:relative; width:250px;  height:385px; margin: 0 auto; overflow: auto; }
+.zeit {color: #4b4b4b; font-weight: 700; height: 16px; padding-top: 3px; text-align: center}
+.sender { margin-right: 3em; text-align:right; margin-bottom:-17px; font-size:10px }
+.picse {border-radius:50%; width:50px;height:50px;margin:10px 0 20px 3px} .senderPic {margin-right: 2.1em;text-align:right}
+.empf { margin-left: 2.5em; text-align:left; margin-bottom:-17px; font-size:10px }
+.bubble, .bubble2, .bubbleE, .bubbleE2 { position: relative; background-color: #3ba8fb; padding: 10px; text-align: center; width: 160px; border-radius: 13px; font-family: arial; color: #fff; font-size: 11px; margin: 20px 0 0 45px; }
+.bubbleE, .bubbleE2 { margin-left: 25px; background-color: #fff; width: 75px; color:#5a5a5a  }
+.bubble { margin-bottom: -10px; }
+.bubble2:after, .bubbleE2:after { position: absolute; display: block; content: ""; border-color: #3ba8fb transparent transparent transparent; border-style: solid; border-width: 10px; height: 0; width:0; bottom:-19px; right:1em; } .bubbleE2:after { left:1em; border-color: #fff transparent transparent transparent}</style>
