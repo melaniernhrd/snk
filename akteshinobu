@@ -1,0 +1,239 @@
+#mainbox {
+    width: 500px;
+    margin: 0px auto;
+    background-color: #9e7a7a;
+	color: #f0f0f0;
+}
+
+#mainbox undertitle2 i1 {font-size: 9px;}
+#mainbox undertitle2{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 8px;
+	letter-spacing: 2px;
+	margin-top: -2px;
+	display: block;
+	line-height: 130%;
+	padding-left: 10px;
+}
+
+#mainbox .box_jutsuscroll {
+    max-height: 260px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #a69191 #a48181;
+    padding-right: 7px;
+}
+
+.box_jutsuscroll::-webkit-scrollbar-track {background-color: #a48181;}
+.box_jutsuscroll::-webkit-scrollbar-thumb {background-color: #a69191;}
+.box_jutsuscroll::-webkit-scrollbar {width: 5px;}
+
+#mainbox .box_jutsuscroll1 {
+	max-height: 230px;
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #a69191 #a48181;
+	padding-right: 7px;
+	margin-top: 5px;
+}
+
+.box_jutsuscroll1::-webkit-scrollbar-track {background-color: #a48181;}
+.box_jutsuscroll1::-webkit-scrollbar-thumb {background-color: #a69191;}
+.box_jutsuscroll1::-webkit-scrollbar {width: 5px;}
+
+#mainbox .Scroller {
+    height: 145px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #a69191 #a48181;
+    padding-right: 5px;
+}
+
+.Scroller::-webkit-scrollbar-track {background-color: #a48181;}
+.Scroller::-webkit-scrollbar-thumb {background-color: #a69191;}
+.Scroller::-webkit-scrollbar {width: 5px;}
+
+#mainbox ul {margin: -10px auto -3px;}
+
+#mainbox .codebox dd{background-color: #a69191;}
+#mainbox .spoiler_closed{background-color: #a69191;border: 1px solid #aa8989;}
+#mainbox .spoiler_content{background-color: #a69191;border: 1px solid #aa8989;color:#f0f0f0;padding: 10px;}
+
+#mainbox a {text-shadow: unset;color: #ffb9b9;}
+#mainbox b{text-transform: uppercase;color: #ffb9b9;}
+
+#mainbox .FuckLikes {float: left;width: 200px;}
+#mainbox .FuckDislikes {float: right;width: 200px;text-align: right;padding-right: 34px;}
+
+#mainbox .rising-stats table{
+    width: 445px;
+	margin-left: 18px;
+}
+
+#mainbox .FuckPic{
+    float: left;
+    margin-right: 7px;
+    margin-bottom: -13px;
+    margin-top: -4px;
+    width: 90px;
+}
+
+#mainbox .FuckPic1{
+    float: right;
+    margin-left: 7px;
+    margin-bottom: -13px;
+    margin-top: -4px;
+    width: 90px;
+}
+
+#mainbox .FuckLine{text-align: left;line-height: 100%;}
+#mainbox .FuckLine1{text-align: right;line-height: 100%;}
+
+#mainbox undertitle {
+	font-weight: bold;
+    text-transform: uppercase;
+    font-size: 8px;
+    letter-spacing: 2px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+}
+
+#mainbox undertitle1 {
+    text-transform: uppercase;
+    font-size: 7px;
+    letter-spacing: 1px;
+    margin-top: -8px;
+    margin-bottom: -2px;
+    font-style: italic;
+}
+
+#mainbox .rising-stats th {
+font-size: 9px;
+letter-spacing: 1px;
+background-color: #a69191;
+width: 150px;
+text-align: center;
+padding: 0px;
+height: 18px;
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+font-weight: bolder;
+text-transform: uppercase;
+}
+
+#mainbox .rising-stats td {
+    font-family: calibri;
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 100px;
+    text-align: center;
+	background-color: #aa8989;
+}
+
+#mainbox .box1 {
+	width: 100%;
+	padding: 20px 0px 5px 0px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	color: #e1e1e1;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin: 0px 10px;
+	font-weight: bold;
+}
+
+#mainbox .box1-sub {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    color: #e1e1e1;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-top: 1px solid #a69191;
+    margin: 2px 10px -10px;
+}
+
+#mainbox hr {
+    border: solid #a69191 0;
+    border-top-width: 1px;
+    height: 0;
+    margin-top: -5px;
+	margin-right: 30px;
+    margin-bottom: 1px;
+	margin-left: 10px;
+}
+
+#mainbox i1,
+#mainbox strong {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: #c1d0d3;
+	font-weight: bold;
+}
+
+#mainbox i2{
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #e1e1e1;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: block;
+	width: 100%;
+	border-bottom: 1px solid #a69191;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+#mainbox  .boxauÃŸen{
+    width: 490px;
+    margin: auto;
+    text-align: justify;
+    min-height: 125px;
+}
+
+#mainbox  .boxdrinnen{
+	max-width: 15px;
+	vertical-align: top;
+	display: block;
+	white-space: nowrap;
+	font-family: 'Calibri', sans-serif;
+	color: #d6e1e4;
+	font-size: 13px;
+	text-transform: uppercase;
+	transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	letter-spacing: 1px;
+	margin-left: 472px;
+	z-index: inherit;
+	position: absolute;
+}
+
+#mainbox box2{
+	display: block;
+	min-height: 125px;
+	text-align: justify;
+	width: 440px;
+	border-right: 1px solid #aa8989;
+	padding-left: 15px;
+	padding-right: 12px;
+	margin-top: -5px;
+}
+
+#mainbox .box1a {
+padding: 5px 0px 5px 0px;
+text-align: center;
+font-size: 7.5px;
+color: #e1e1e1;
+letter-spacing: 1px;
+text-transform: uppercase;
+border-top: 1px solid #aa8989;
+margin-left: 10px;
+margin-right: 10px;
+}
